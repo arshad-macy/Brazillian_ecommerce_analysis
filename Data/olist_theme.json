@@ -1,0 +1,32 @@
+{
+  "name": "Olist Dashboard",
+  "dataColors": ["#1F4FE0", "#12239E", "#F26B3A", "#8FA8F0", "#9AA5B8", "#F2B134", "#2BA58A", "#7A5AF8"],
+  "background": "#FFFFFF",
+  "foreground": "#1B2440",
+  "tableAccent": "#1F4FE0",
+  "good": "#2BA58A",
+  "neutral": "#F2B134",
+  "bad": "#F26B3A",
+  "minimum": "#8FA8F0",
+  "center": "#F2B134",
+  "maximum": "#12239E",
+  "textClasses": {
+    "title":   { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1B2440" },
+    "label":   { "fontFace": "Segoe UI", "fontSize": 10, "color": "#5B6478" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 24, "color": "#1B2440" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#1B2440" } }, "fontSize": 12 }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E6E9F2" } }, "radius": 8 }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F5F6FA" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
