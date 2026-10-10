@@ -31,16 +31,13 @@ All figures are for delivered orders, Jan 2017 to Aug 2018, from the cleaned dat
 
 ```
 ├── README.md
+├── cleaned/                        # output of the notebook (not committed)
 ├── notebooks/
 │   └── datacleaning.ipynb          # profiling + cleaning pipeline
 ├── data/
 │   ├── raw/                        # place the 9 Kaggle CSVs here (not committed)
-│   └── cleaned/                    # output of the notebook (not committed)
 ├── powerbi/
-│   ├── olist_report.pbix
-│   └── olist_theme_light.json
-├── python-visuals/
-│   └── seaborn_visual_template.py  # styled Python visual used in Power BI
+│   ├── olist_report.pbix  
 └── images/                         # report screenshots
 ```
 
@@ -85,7 +82,6 @@ Row counts exported: customers 99,441, geolocation 19,015, orders 99,441, order_
 | Products and Sellers | Seller concentration, freight vs weight, seller scatter, state scorecard |
 | Seller Detail | Drill-through page for one seller, with a comparison against all sellers |
 | Insights (AI) | Key influencers and decomposition tree on low review scores |
-| Data Notes | Cleaning log, definitions, assumptions |
 
 ## Key DAX measures
 
